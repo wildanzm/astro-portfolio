@@ -1,0 +1,10 @@
+---
+const { name, src } = Astro.props
+---
+
+<div class="w-fit px-3 py-2 group rounded border flex gap-2 items-center border-neutral-200 dark:border-neutral-700 hover:bg-neutral-100 hover:dark:bg-neutral-800 blend">
+  <img src={src} alt="Javascript" width="25" height="25"/>
+  <span class="text-sm capitalize text-neutral-500 dark:text-neutral-400 group-hover:text-black group-hover:dark:text-white blend">
+    {name}
+  </span>
+</div>

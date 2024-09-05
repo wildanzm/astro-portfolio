@@ -1,0 +1,66 @@
+[
+  { 
+    "name": "Javascript", 
+    "src": "https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Skills/Languages/javascript-original.svg"
+  },
+  {
+    "name": "Python", 
+    "src": "https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Skills/Languages/python-original.svg"
+  },
+  { 
+    "name": "Typescript", 
+    "src": "https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Skills/Languages/typescript-original.svg"
+  },
+  { 
+    "name": "PHP", 
+    "src": "https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Skills/Languages/php-original.svg"
+  },
+  { 
+    "name": "Bootstrap", 
+    "src": "https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Skills/Frontend/bootstrap-plain-wordmark.svg"
+  },
+  {
+   "name": "Tailwind",
+   "src": "https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Skills/Frontend/tailwindcss-icon.svg"
+  },
+  {
+   "name": "HTML",
+   "src": "https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Skills/Frontend/html5-original-wordmark.svg"
+  },
+  {
+   "name": "CSS",
+   "src": "https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Skills/Frontend/css3-original-wordmark.svg"
+  },
+  {
+   "name": "React",
+   "src": "https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Skills/Frontend/react-original-wordmark.svg"
+  },
+  {
+   "name": "NodeJs",
+   "src": "https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Skills/Backend/nodejs-original-wordmark.svg"
+  },
+  {
+   "name": "ExpressJs",
+   "src": "https://www.vectorlogo.zone/logos/expressjs/expressjs-icon.svg"
+  },
+  {
+   "name": "Laravel",
+   "src": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Laravel.svg"
+  },
+  {
+   "name": "MySQL",
+   "src": "https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Skills/Database/mysql-original-wordmark.svg"
+  },
+  {
+   "name": "Linux",
+   "src": "https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Skills/Other/linux-original.svg"
+  },
+  {
+   "name": "Git",
+   "src": "https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Skills/Other/git-scm-icon.svg"
+  },
+  {
+   "name": "Figma",
+   "src": "https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Skills/Software/figma-icon.svg"
+  }
+]

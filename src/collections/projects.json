@@ -1,0 +1,44 @@
+[
+	{
+		"name": "Web App DesainKaoz",
+		"description": "Desainkaoz is ultimate print-on-demand marketplace.",
+		"image": "/assets/images/projects/desainkaoz.png",
+		"url": ""
+	},
+	{
+		"name": "Web App Tokokilo",
+		"description": "Tokokilo is marketplace essential needs.",
+		"image": "/assets/images/projects/tokokilo.png",
+		"url": ""
+	},
+	{
+		"name": "Web Rattan Export",
+		"description": "PT. Syifa Natural Farma's Rattan Furniture Exporter Website.",
+		"image": "/assets/images/projects/rattan.png",
+		"url": ""
+	},
+	{
+		"name": "Web Toserba Inc",
+		"description": "Toserba Inc is platform for online transportation and essential marketplace.",
+		"image": "/assets/images/projects/toserba.png",
+		"url": ""
+	},
+	{
+		"name": "UI/UX Design KawanHijau",
+		"description": "KawanHijau is mobile application recycling and waste disposal.",
+		"image": "/assets/images/projects/kawanhijau.jpeg",
+		"url": ""
+	},
+	{
+		"name": "UI/UX Design Mony",
+		"description": "Mony is mobile-based e-wallet application.",
+		"image": "/assets/images/projects/mony.jpeg",
+		"url": ""
+	},
+	{
+		"name": "UI/UX Design BukaTani",
+		"description": "BukaTani is mobile application agriculture",
+		"image": "/assets/images/projects/bukatani.png",
+		"url": ""
+	}
+]

@@ -1,0 +1,138 @@
+---
+import experiences from "../collections/experiences.json";
+import education from "../collections/education.json"
+import AboutExperience from "../components/about-experience.astro";
+import AboutEducation from "../components/about-education.astro";
+import PageHeading from "../components/page-heading.astro";
+import Layout from "../layouts/main.astro";
+import StackCard from "../components/stack-cards.astro";
+import stack from "../collections/stack.json"
+import Achievment from "../components/achievement.astro"
+import achievements from "../collections/achievements.json";
+import Achievement from "../components/achievement.astro";
+---
+
+<Layout title="Wildan | About Me">
+  <section class="relative z-20 max-w-2xl mx-auto my-12 px-7 lg:px-0">
+    <img src="/assets/images/about.jpg" class="relative z-30 w-full my-10 rounded-xl" />
+
+    <PageHeading
+      title="About Me"
+      description="Hello, my name is Wildan Zhilal Manafi, I am a student from University of Majalengka, Informatics Engineering study program. I am passionate about technology, especially the web and artificial intelligence. I am always enthusiastic about learning new things and exploring new possibilities in the world of technology. With my dedication, I aim to continue to contribute and develop innovative solutions."
+    />
+
+
+    <!-- <h2 class="mb-2 text-2xl font-bold dark:text-neutral-200">Short Bio</h2>
+    <p
+      class="text-sm leading-6 text-gray-600 dark:text-neutral-400 sm:leading-7 lg:leading-8 sm:text-base lg:text-lg"
+    >
+      Front-end cutter 🧑🏻‍💻, back-end amateur 🤷🏻‍♂️, operations digging holes person 🤦🏻‍♂️.
+    </p> -->
+
+    <h2 class="mb-2 text-2xl font-bold mt-5 dark:text-neutral-200">Skills</h2>
+    <div class="flex flex-wrap items-center gap-2 mt-5">
+            {stack.map(stack => (
+              <StackCard 
+                name={stack.name}
+                src={stack.src}
+              />
+            ))}
+          </div>
+
+    <h2
+      class="mt-5 mb-2 text-2xl font-bold lg:mt-10 sm:mt-6 dark:text-neutral-200"
+    >
+      Education
+    </h2>
+    <div class="px-5 py-10">
+      {
+        education.map((education, loop) => {
+          return (
+            <>
+              {loop == 0 || loop == 1 ? (
+                <div class="pb-10 border-l border-gray-200 dark:border-neutral-700">
+                  <AboutEducation
+                    date={education.date}
+                    school={education.school}
+                    major={education.major}
+                    description={education.description}
+                    logo={education.logo}
+                  />
+                </div>
+              ) : (
+                <AboutEducation
+                  date={education.date}
+                  school={education.school}
+                  major={education.major}
+                  description={education.description}
+                  logo={education.logo}
+                />
+              )}
+            </>
+          )
+        })
+      }
+    </div>
+
+    <h2
+      class="mt-5 mb-2 text-2xl font-bold lg:mt-10 sm:mt-6 dark:text-neutral-200"
+    >
+      Experiences
+    </h2>
+    <div class="px-5 py-10">
+      {
+        experiences.map((experience, loop) => {
+          return (
+            <>
+              {loop == 0 || loop == 1 ? (
+                <div class="pb-10 border-l border-gray-200 dark:border-neutral-700">
+                  <AboutExperience
+                    dates={experience.dates}
+                    role={experience.role}
+                    company={experience.company}
+                    description={experience.description}
+                    logo={experience.logo}
+                    status={experience.status}
+                  />
+                </div>
+              ) : (
+                <AboutExperience
+                  dates={experience.dates}
+                  role={experience.role}
+                  company={experience.company}
+                  description={experience.description}
+                  logo={experience.logo}
+                  status={experience.status}
+                />
+              )}
+            </>
+          )
+        })
+      }
+    </div>
+
+    <h2 class="mb-2 text-2xl font-bold dark:text-neutral-200">Achievements</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+      {
+        achievements.map(achievement => (
+          <Achievement src={achievement.src}/>
+        ))
+      }
+    </div>
+
+  
+
+    <!-- <h2 class="mt-5 mb-2 text-2xl font-bold lg:mt-10 sm:mt-6 dark:text-neutral-200">Let's Connect</h2>
+    <p
+      class="text-sm leading-6 text-gray-600 dark:text-neutral-400 sm:leading-7 lg:leading-8 sm:text-base lg:text-lg"
+    >
+      If you want to stay up to date with my work be sure to <a
+        href="https://twitter.com/ccikai"
+        target="_blank"
+        class="text-indigo-600 underline">follow me on twitter</a
+      >, or you can send me an <a href="mailto:astro-aria#miantiao.me" class="text-indigo-600 underline"
+        >email</a
+      > and I'll be sure to get back to you.
+    </p> -->
+  </section>
+</Layout>
