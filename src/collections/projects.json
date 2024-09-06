@@ -6,6 +6,24 @@
 		"url": ""
 	},
 	{
+		"name": "Web App Taskia",
+		"description": "Taskia is app for management task.",
+		"image": "/assets/images/projects/taskia.png",
+		"url": ""
+	},
+	{
+		"name": "Web App Nontoon",
+		"description": "Nontoon is movie list app with The MovieDB API.",
+		"image": "/assets/images/projects/nontoon.png",
+		"url": ""
+	},
+	{
+		"name": "Web App Noolisin",
+		"description": "Noolisin is app for generating text into handwritings.",
+		"image": "/assets/images/projects/noolisin.png",
+		"url": ""
+	},
+	{
 		"name": "Web App Tokokilo",
 		"description": "Tokokilo is marketplace essential needs.",
 		"image": "/assets/images/projects/tokokilo.png",
