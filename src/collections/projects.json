@@ -1,62 +1,74 @@
 [
 	{
+		"data": "desainkaoz",
 		"name": "Web App DesainKaoz",
-		"description": "Desainkaoz is ultimate print-on-demand marketplace.",
+		"description": "Desainkaoz is ultimate print-on-demand marketplace. We can unleash creativity and bring designs to life on a range of products. From apparel to accessories, create unique items that showcase our style.",
 		"image": "/assets/images/projects/desainkaoz.png",
-		"url": ""
+		"github": "https://github.com/wildanzm/livewire-desainkaoz",
+		"demo": "",
+		"tech": "HTML, CSS, Javascript, Bootstrap, JQuery, Laravel, PHP, Livewire, Konva.js, MySQL"
 	},
 	{
+		"data": "taskia",
 		"name": "Web App Taskia",
-		"description": "Taskia is app for management task.",
+		"description": "Taskia is a interactive web application designed for efficient task management. Its ultimate feature is the use of local storage to securely save data, ensuring that your tasks are always accessible and well-organized. The clean design enhances user experience, making task management both effective and enjoyable.",
 		"image": "/assets/images/projects/taskia.png",
-		"url": ""
+		"github": "https://github.com/wildanzm/taskia",
+		"demo": "https://taskiaa.netlify.app",
+		"tech": "HTML, CSS, Javascript, Tailwind"
 	},
 	{
+		"data": "nontoon",
 		"name": "Web App Nontoon",
-		"description": "Nontoon is movie list app with The MovieDB API.",
+		"description": "Nontoon is a dynamic web application designed for movie lovers, utilizing The MovieDB API to offer a rich catalog of films. With its user-friendly interface, Nontoon allows users to effortlessly search for movies, explore detailed information, and stay up-to-date with the latest releases, all in one place.",
 		"image": "/assets/images/projects/nontoon.png",
-		"url": ""
+		"github": "https://github.com/wildanzm/react-movielist",
+		"demo": "https://nontoon.vercel.app",
+		"tech": "HTML, CSS, ReactJs, ViteJs, Axios, The MovieDB API"
 	},
 	{
+		"data": "noolisin",
 		"name": "Web App Noolisin",
-		"description": "Noolisin is app for generating text into handwritings.",
+		"description": "Noolisin is a web application designed to generete typed text into handwritten style. It provides users with an easy-to-use platform to create text that mimics real handwriting, ideal for adding a personal touch to notes, invitations, and other creative projects.",
 		"image": "/assets/images/projects/noolisin.png",
-		"url": ""
+		"github": "https://github.com/wildanzm/noolisin",
+		"demo": "https://noolisin.vercel.app",
+		"tech": "HTML, CSS, Javascript, Bootstrap"
 	},
 	{
-		"name": "Web App Tokokilo",
-		"description": "Tokokilo is marketplace essential needs.",
-		"image": "/assets/images/projects/tokokilo.png",
-		"url": ""
-	},
-	{
+		"data": "rattan",
 		"name": "Web Rattan Export",
-		"description": "PT. Syifa Natural Farma's Rattan Furniture Exporter Website.",
+		"description": "PT. Syifa Natural Farma's Rattan Furniture Exporter Website. Explore a world of exquisite craftsmanship and sustainable design premium rattan furniture collection. Discover an array of meticulously handcrafted pieces that seamlessly blend timeless aesthetics with eco-conscious practices. Experience elegance, sustainability, and innovation",
 		"image": "/assets/images/projects/rattan.png",
-		"url": ""
+		"github": "https://github.com/wildanzm/rattan-export",
+		"demo": "https://wildanzm.github.io/rattan-export/",
+		"tech": "HTML, CSS, Javascript, Bootstrap, SCSS"
 	},
 	{
-		"name": "Web Toserba Inc",
-		"description": "Toserba Inc is platform for online transportation and essential marketplace.",
-		"image": "/assets/images/projects/toserba.png",
-		"url": ""
-	},
-	{
+		"data": "kawanhijau",
 		"name": "UI/UX Design KawanHijau",
-		"description": "KawanHijau is mobile application recycling and waste disposal.",
+		"description": "KawanHijau is a revolutionary mobile application designed to simplify and streamline recycling and waste disposal. Our app is dedicated to promoting environmental sustainability through recycling and reforestation efforts. The primary goal of KawanHijau is to make recycling easy, accessible, and efficient for everyone. Users can effortlessly recycle their waste and contribute to a greener planet with just a few taps on their mobile devices.",
 		"image": "/assets/images/projects/kawanhijau.jpeg",
-		"url": ""
+		"github": "https://github.com/wildanzm",
+		"demo": "https://www.figma.com/design/o7cMhA3C0qTyFoXqTR51al/KawanHijau?m=auto&t=BEPz8Svhu84Z0YQw-6",
+		"tech": "Figma"
 	},
 	{
+		"data": "mony",
 		"name": "UI/UX Design Mony",
-		"description": "Mony is mobile-based e-wallet application.",
+		"description": "Mony is a mobile-based e-wallet application. With its sleek and clean design, Mony offers users a seamless experience for their transactions. Our focus on simplicity ensures that users feel comfortable and engaged while using the app. In addition to its user-friendly interface, Mony provides an extensive range of PPOB (Payment Point Online Banking) services that are both comprehensive and affordable. Through thoughtful design and functionality, we aim to redefine the digital payment experience.",
 		"image": "/assets/images/projects/mony.jpeg",
-		"url": ""
+		"github": "https://github.com/wildanzm",
+		"demo": "https://www.figma.com/design/RhhMSmPetyEnROcQLgAreq/Mony?m=auto&t=BEPz8Svhu84Z0YQw-6",
+		"tech": "Figma"
 	},
 	{
+		"data": "bukatani",
 		"name": "UI/UX Design BukaTani",
-		"description": "BukaTani is mobile application agriculture",
+		"description": "BukaTani is a revolutionary mobile application that stands as the nexus between farmers and eager partners. At its core, BukaTani aims to usher in a new era of transparency in the agricultural ecosystem. Our mission is clear – to provide real-time visibility into the production, distribution, and trade of agricultural products. Through this, we strive to eliminate any opaque practices such as hoarding, ensuring fair and dynamic pricing. The heartbeat of BukaTani lies in empowering both farmers and consumers by delivering stable, real-time prices for agricultural commodities. Join us on this journey towards a future where agriculture is not just a profession but a thriving, transparent marketplace.",
 		"image": "/assets/images/projects/bukatani.png",
-		"url": ""
+		"github": "https://github.com/wildanzm",
+		"demo": "https://www.figma.com/design/LWTxeWtOSVTZUC9wm2Oa6j/BukaTani?m=auto&t=BEPz8Svhu84Z0YQw-6",
+		"tech": "Figma"
 	}
 ]
